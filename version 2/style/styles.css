@@ -231,6 +231,9 @@ footer [class*="fa-"]:hover {
   #projects .reverse img {
     grid-column: 6/11;
     grid-row: 1/2;
+    border-right: 1px solid var(--aqua);
+    border-top: 1px solid var(--aqua);
+    border-left: 0px;
   }
   #projects .reverse ul {
     justify-content: flex-start;
